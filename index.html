@@ -38,12 +38,15 @@
       };
     }
   })();
+	  
   </script>
-	<script type="text/javascript">
-   function redirect() {
-   if (screen.width <= 950) {
-      window.location = "https://www.google.com/";
-   }
+	<script>
+	window.addEventListener('resize', function() {
+	if (window.innerWidth <= 900) {
+		window.location.href = "http://www.google.com"; 
+	}
+});
+	</script>
 
   <!-- Globals Definitions -->
   <script>
